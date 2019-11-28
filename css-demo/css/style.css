@@ -20,14 +20,20 @@ img {
 a {
 	color: #FFE66D;
 }
+
 a:hover {
 	text-decoration: none;
+}
+
+.content-wrap {
+	width: 900px;
+	margin: 0 auto;
 }
 
 /** Profile **/ 
 header {
 	background: #2f3061;
-/*	color: */
+	color: #f7fff7;
 }
 
 /** Projects **/ 
