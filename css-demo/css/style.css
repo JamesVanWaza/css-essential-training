@@ -11,9 +11,16 @@ COLOR PALETTE
 /*font-family: 'Baskervville', serif;*/
 
 /** Global Styles **/ 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	color: #343434;
-	margin: 0;
 	padding: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 15px;
