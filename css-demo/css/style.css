@@ -106,11 +106,6 @@ header {
 .work-experince {
   background: #A1C6D7;
 }
-.job-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 20px;
-}
 /** Education **/
 .education {
   background-image: url("../images/joanna-kosinska-unsplash.jpg");
@@ -142,5 +137,10 @@ footer {
   .project-item img {
     float: left;
     margin: 20px;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
   }
 }
