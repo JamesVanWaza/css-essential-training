@@ -143,7 +143,16 @@ header {
 }
 
 /** Education **/ 
+.education {
+	background-image: url("../images/joanna-kosinska-unsplash.jpg");
+	backgorund-size: cover;
+	background-position: top right;
+	padding-bottom: 100px;
+}
 
+.education p {
+	width: 60%;
+}
 
 /** Contact Info **/ 
 footer {
@@ -162,5 +171,7 @@ footer {
 .contact-list a {
 	padding: 15px;
 	display: inline-block;
-}.job-item {
+}
+.job-item {
+	
 }
